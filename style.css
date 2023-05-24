@@ -47,6 +47,16 @@ main>div:nth-child(2) {
   padding: 30px;
   justify-content: center;
   align-items: center;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+/* realinhar texto para o início */
+.textRealign {
+  justify-content: left !important;
+  align-items: normal !important;
+  font-size: 1.5em;
+  color: var(--gray-400)
 }
 
 main>div>img {
@@ -104,6 +114,8 @@ span>p {
   font-size: 32px;
   background-color: transparent;
   border: none;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 
 #textInsert::placeholder {
