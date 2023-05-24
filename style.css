@@ -76,6 +76,8 @@ main>div>div>span {
 
 button {
   width: 53%;
+  height: 67px;
+  border-radius: 24px;
 }
 
 strong {
@@ -133,12 +135,6 @@ span>p {
   main>div:nth-child(2) {
     min-width: 400px;
     width: 28%;
-  }
-
-
-  button {
-    height: 67px;
-    border-radius: 24px;
   }
 }
 
